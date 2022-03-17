@@ -1,0 +1,486 @@
+@font-face {
+  font-family: "lovely";
+  src: local("Lovely Font"), local("Lovely-Font"),
+    url("../fonts/lovely.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "oldfont";
+  src: local("Lovely Font"), local("Lovely-Font"),
+    url("../fonts/oldfont.otf") format("opentype");
+}
+
+body {
+  margin: 0;
+}
+
+.landing {
+  position: relative;
+  height: 100vh;
+  background-image: url("../images/headerbg.png");
+  background-position: top center;
+  background-attachment: stretch;
+  overflow: hidden;
+}
+
+.section-spacer {
+  height: 50px;
+  width: 100%;
+  background-color: #fee2eb;
+}
+
+.section-spacertwo {
+  position: relative;
+  height: 45px;
+  width: 100%;
+  background-color: #fee2eb;
+}
+
+.about {
+  background-color: #fee2eb;
+  position: relative;
+}
+
+.content {
+  color: #219060;
+  position: relative;
+}
+
+.couple {
+  position: absolute;
+  height: 435px;
+  width: 100%;
+  background-image: url("../images/allyandy.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: -215px;
+  bottom: 0;
+}
+
+.title-text {
+  display: block;
+  position: absolute;
+  max-height: 250px;
+  max-width: 771px;
+  height: auto;
+  width: auto;
+  left: 0%;
+  max-width: 100vw;
+  margin-left: 0px;
+  top: 50%;
+  margin-top: -125px;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
+}
+
+.love {
+  position: absolute;
+  width: 67vw;
+  height: 110px;
+  background-image: url("../images/heart.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  margin-left: -35vw;
+  left: 45vw;
+  top: 15vw;
+}
+
+.pattern {
+  position: absolute;
+  height: 45px;
+  background-image: url("../images/pattern.svg");
+  background-repeat: repeat-x;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.text-content {
+  max-width: 525px;
+  padding: 2em 1.2em;
+  overflow: hidden;
+}
+.text-content h5 {
+  padding-bottom: 15px;
+  font-family: "lovely", cursive;
+  position: relative;
+  font-size: 4.1em;
+  font-weight: 400;
+  text-align: center;
+}
+.text-content p {
+  font-family: "oswald", sans-serif;
+  font-size: 1.55em;
+  font-weight: 300;
+  margin-bottom: -10px;
+}
+
+.underline {
+  position: relative;
+  width: 100%;
+  height: 4px;
+  background-color: #219060;
+}
+
+.underlinebox {
+  position: relative;
+  margin-top: -10px;
+  width: 100%;
+  height: 4px;
+  overflow: hidden;
+}
+
+.para {
+  padding: 10px;
+}
+
+.img-responsive {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 35px;
+  opacity: 0.85;
+}
+
+.savethedate {
+  position: relative;
+  height: 650px;
+  background-color: #219060;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  font-family: "lovely", cursive;
+  overflow: hidden;
+}
+.savethedate h4 {
+  margin: 1px;
+  color: #fee2eb;
+  font-size: 2em;
+}
+.savethedate h1 {
+  margin-bottom: 15px;
+  margin-top: 25px;
+  font-size: 8em;
+  color: #6bd1a5;
+}
+.savethedate h2 {
+  font-size: 3.5em;
+  color: #fee2eb;
+  height: auto;
+}
+
+.patternbottom {
+  position: absolute;
+  height: 45px;
+  background-image: url("../images/patterndown.svg");
+  background-repeat: repeat-x;
+  top: 0;
+  width: 100%;
+}
+
+.patternbottomgreen {
+  position: absolute;
+  height: 45px;
+  background-image: url("../images/patterngreendown.svg");
+  background-repeat: repeat-x;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.patterngreen {
+  position: absolute;
+  height: 45px;
+  background-image: url("../images/patterngreen.png");
+  background-repeat: repeat-x;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.save {
+  color: #fee2eb;
+}
+
+.stdtext {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#the {
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.mapholder {
+  position: relative;
+}
+
+#map {
+  background-image: url("../images/map.jpg");
+}
+
+.rsvp_registry {
+  background-color: #fee2eb;
+}
+
+.holder {
+  position: relative;
+  overflow: hidden;
+}
+
+.auth {
+  position: absolute;
+  height: 80%;
+  width: 100%;
+  background-color: #fee2eb;
+  opacity: 0.85;
+  z-index: 999;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: 500ms ease-in-out;
+}
+.auth p {
+  font-size: 1.3em;
+  font-family: "oswald", sans-serif;
+  font-weight: 300;
+  color: #1a724c;
+}
+.auth .inputfield {
+  padding: 12px 15px;
+  margin: 5px 0;
+  border-radius: 7px;
+  border: 1px solid #e88da9;
+  background-color: #fff4f7;
+  color: #1a724c;
+  font-size: 1.3em;
+  font-family: "oswald", sans-serif;
+  font-weight: 300;
+}
+.auth .inputfield:focus {
+  outline: none;
+  background-color: #fce8ee;
+}
+
+.authtwo {
+  position: absolute;
+  height: 80%;
+  width: 100%;
+  background-color: #fee2eb;
+  opacity: 0.85;
+  z-index: 999;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: 500ms ease-in-out;
+  transform: translate(0px, 400px);
+}
+.authtwo h5 {
+  margin-bottom: 15px;
+  margin-top: 25px;
+  font-size: 8em;
+  color: #219060;
+  font-family: "lovely", cursive;
+}
+
+.rsvpbox {
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.rsvpbox h5 {
+  padding-bottom: 15px;
+  font-family: "lovely", cursive;
+  margin-top: -23px;
+  position: relative;
+  font-size: 4.1em;
+  font-weight: 400;
+  text-align: center;
+  color: #219060;
+}
+.rsvpbox .h4text {
+  padding-bottom: 15px;
+  font-family: "lovely", cursive;
+  margin-top: 65px;
+  position: relative;
+  font-size: 2em;
+  font-weight: 400;
+  text-align: center;
+  color: #219060;
+}
+.rsvpbox input:focus {
+  outline: none;
+  background-color: #fce8ee;
+}
+.rsvpbox .inputbox * {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 5px 0;
+  border-radius: 7px;
+  border: 1px solid #e88da9;
+  background-color: #fff4f7;
+  color: #1a724c;
+  font-size: 1.3em;
+  font-family: "oswald", sans-serif;
+  font-weight: 300;
+}
+
+.radiobox {
+  padding: 12px 15px;
+  margin: 5px 0;
+  color: #1a724c;
+  font-size: 1.3em;
+  font-family: "oswald", sans-serif;
+}
+
+#submit {
+  background-color: #d7f7e9;
+  width: 80%;
+  padding: 12px 15px;
+  margin: 5px 0;
+  border-radius: 7px;
+  border: 1px solid #1a724c;
+  color: #1a724c;
+  font-size: 1.3em;
+  font-family: "oswald", sans-serif;
+  margin-left: 10%;
+}
+
+#submit:active {
+  background-color: #c7eddc;
+}
+
+#submit2 {
+  background-color: #d7f7e9;
+  width: 80%;
+  padding: 12px 15px;
+  margin: 5px 0;
+  border-radius: 7px;
+  border: 1px solid #1a724c;
+  color: #1a724c;
+  font-size: 1.3em;
+  font-family: "oswald", sans-serif;
+  margin-left: 10%;
+}
+
+#submit2:active {
+  background-color: #c7eddc;
+}
+
+.regbox {
+  height: 515px;
+}
+
+.hashtag {
+  margin-top: -10px;
+  position: relative;
+  height: 150px;
+  background-color: #219060;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.hashtag h1 {
+  font-family: "lovely", cursive;
+  color: #fee2eb;
+}
+.hashtag img {
+  height: 60px;
+  width: 60px;
+  margin-right: 40px;
+}
+
+.footerbox {
+  position: relative;
+  background-color: #fee2eb;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerbox h3 {
+  font-family: "oswald", sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #1a724c;
+  margin-top: 20px;
+}
+
+@media (min-width: 771px) {
+  .title-text {
+    left: 50%;
+    margin-left: -385px;
+  }
+  .savethedate {
+    height: 800px;
+  }
+  .savethedate h4 {
+    margin: 6px;
+    font-size: 2.7em;
+  }
+  .savethedate h4 {
+    margin: 6px;
+    font-size: 2.7em;
+  }
+  .savethedate h1 {
+    font-size: 12em;
+    margin-top: 35px;
+  }
+  .savethedate h2 {
+    font-size: 5em;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .text-content h5 {
+    font-size: 4.3em;
+    margin-top: 0px;
+  }
+  .text-content p {
+    font-size: 1.75em;
+  }
+  .love {
+    margin-left: -35vw;
+    left: 35vw;
+    top: 110px;
+  }
+  .couple {
+    margin-bottom: -180px;
+  }
+  #the {
+    position: relative;
+    font-size: 35px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .address {
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .love {
+    margin-left: -35vw;
+    left: 30vw;
+  }
+}
